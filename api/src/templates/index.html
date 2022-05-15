@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-5">
+          <h2 class="pt-4">Add new record:<h2>
+          <form action="/save_record" method="POST">
+            <textarea id="record" name="record" rows="4" style="white-space: pre-wrap;" class="form-control"></textarea>
+            <br>
+            <input type="submit" value="Submit" class="btn btn-secondary">
+          </form>
+        </div>
+        <div class="col-4"></div>
+      </div>
+  </body>
+</html>

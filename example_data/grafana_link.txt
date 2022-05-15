@@ -1,0 +1,1 @@
+http://localhost:3000/d/5pGiKSu7k/patient-record?orgId=1&from=1312276433000&to=1312276495000&viewPanel=2
